@@ -1,0 +1,102 @@
+#Entity;word1,word2...;Field
+#Person , Dates
+when;person;birth,born,genesis,hail,created,create;WikiDateOfBirth
+when;person;death,died,dead,kill,assassinate,killed,assassinated,slay,slayed,execute,executed;WikiDateOfDeath
+#Person , location
+where;person;birth,born,genesis,hail,created,create;WikiPlaceOfBirth
+where;person;death,died,dead,kill,assassinate,killed,assassinated,slay,slayed,execute,executed;WikiPlaceOfDeath
+#Person , relation
+who;person;wife,spouse,mate,partner,bride,husband,groom,other half,boyfriend,girlfriend;WikiSpouce
+who;person;kids,child,children,baby,offspring;WikiChildren
+who;person;father,mother,guardian,wellspring,creater;WikiParents
+#Person , self
+what;person;occupation,work,chosen work, line of work,walk of life,job,do,did for;WikiOccupation
+where;person;office,workplace,appointed,posted,appointment;WikiOffice
+what;person;net worth,worth,assets,total assets;WikiNetWorth
+how;person;net worth,worth,assets,total assets;WikiNetWorth
+how;person;death,died,dead,kill,assassinate,killed,assassinated,slay,slayed,execute,executed;WikiDeathCause
+what;person;nationality,national,country,contry;WikiNationality
+how;person;education,educated,study,studied,education,educate,trained;WikiEducation
+where;person;education,educated,study,studied,education,educate,trained;WikiEducation
+what;person;education,educated,study,studied,education,educate,trained;WikiEducation
+how;person;earn,salary,income,payroll,earnings,stipend;WikiSalary
+what;person;earn,salary,income,payroll,earnings,stipend;WikiSalary
+how;person;height,long,length,tall,big;WikiHeight
+what;person;height,length;WikiHeight
+how;person;fat,weigh,weight,heavy,light;WikiWeight
+what;person;weight;WikiWeight
+how;person;old,age,big,life;WikiAge
+what;person;age,life;WikiAge
+how;person;years active,active years,active;WikiYearsActive
+when;person;years active,active years,active;WikiYearsActive
+what;person;website,site,link,url,web address,address;WikiWebsite
+# location , self
+what;location;capital,center;WikiCapital
+where;location;capital,center;WikiCapital
+what;location;language,dialect;WikiLanguage
+what;location;currency,green stuff;WikiCurrency
+how;location;big,size,area,land,large;WikiArea
+what;location;size,area,land;WikiArea
+how;location;population,residents,people,many live;WikiPopulation
+what;location;population,residents,people,many live;WikiPopulation
+what;location;timezone,time,zone;WikiTimeZone
+where;location;empty,country;WikiCountry
+where;location;country;WikiCountry
+what;location;state,provience,territory;WikiState
+what;location;industry,business,production,corporation;WikiIndustry
+#Organization , self
+who;organization;birth,founded,incorporated,created,started;WikiFounder
+when;organization;born,founded,incorporated,created,started;WikiFounded
+who;organization;work for,work,employees;WikiEmployees
+what;organization;products,product;WikiProducts
+how;organization;products,product;WikiProducts
+how;organization;revenue,income,net income,assets;WikiRevenue
+where;organization;headquarter,main office,hq,center;WikiHeadquarters
+# EMPTY , no ner
+when;empty;birth,born,genesis,hail,created,create;WikiDateOfBirth
+when;empty;death,died,dead,kill,assassinate,killed,assassinated,slay,slayed,execute,executed;WikiDateOfDeath
+where;empty;birth,born,genesis,hail,created,create;WikiPlaceOfBirth
+where;empty;death,died,dead,kill,assassinate,killed,assassinated,slay,slayed,execute,executed;WikiPlaceOfDeath
+who;empty;wife,spouse,mate,partner,bride,husband,groom,other half;WikiSpouce
+who;empty;kids,child,children,baby,offspring;WikiChildren
+who;empty;father,mother,guardian,wellspring,creater;WikiParents
+what;empty;occupation,work,chosen work, line of work,walk of life,job,do,did for;WikiOccupation
+where;empty;office,workplace,appointed,posted,appointment;WikiOffice
+what;empty;net worth,worth,assets,total assets;WikiNetWorth
+how;empty;net worth,worth,assets,total assets;WikiNetWorth
+how;empty;death,died,dead,kill,assassinate,killed,assassinated,slay,slayed,execute,executed;WikiDeathCause
+what;empty;nationality,national,country,contry;WikiNationality
+how;empty;education,educated,study,studied,education,educate,trained;WikiEducation
+where;empty;education,educated,study,studied,education,educate,trained;WikiEducation
+what;empty;education,educated,study,studied,education,educate,trained;WikiEducation
+how;empty;earn,salary,income,payroll,earnings,stipend;WikiSalary
+what;empty;earn,salary,income,payroll,earnings,stipend;WikiSalary
+how;empty;height,long,length,tall,big;WikiHeight
+what;empty;height,length;WikiHeight
+how;empty;fat,weigh,weight,heavy,light;WikiWeight
+what;empty;weight;WikiWeight
+how;empty;old,age,big,life;WikiAge
+what;empty;age,life;WikiAge
+how;empty;years active,active years,active;WikiYearsActive
+when;empty;years active,active years,active;WikiYearsActive
+what;empty;website,site,link,url,web address,address;WikiWebsite
+what;empty;capital,center;WikiCapital
+where;empty;capital,center;WikiCapital
+what;empty;language,dialect;WikiLanguage
+what;empty;currency,green stuff;WikiCurrency
+how;empty;big,size,area,land;WikiArea
+what;empty;size,area,land;WikiArea
+how;empty;population,residents,people;WikiPopulation
+what;empty;population,residents,people;WikiPopulation
+what;empty;timezone,time,zone;WikiTimeZone
+where;empty;empty,country;WikiCountry
+where;empty;country;WikiCountry
+what;empty;state,provience,territory;WikiState
+what;empty;industry,business,production,corporation;WikiIndustry
+who;empty;founded,incorporated,created,started;WikiFounder
+when;empty;founded,incorporated,created,started;WikiFounded
+who;empty;work for,work,employees;WikiEmployees
+what;empty;products,product;WikiProducts
+how;empty;products,product;WikiProducts
+how;empty;revenue,income,net income,assets;WikiRevenue
+where;empty;headquarter,main office,hq,center;WikiHeadquarters
