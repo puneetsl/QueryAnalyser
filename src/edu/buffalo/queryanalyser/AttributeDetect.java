@@ -15,7 +15,7 @@ public class AttributeDetect {
 		List<Tree> phraseList=new ArrayList<Tree>();
 		for (Tree subtree: parse)
 		{
-
+    
 			if(subtree.label().value().equals("FW")||subtree.label().value().equals("IN")||subtree.label().value().equals("JJ")||subtree.label().value().equals("JJR")||subtree.label().value().equals("JJS")||subtree.label().value().equals("RB")||subtree.label().value().equals("VB")||subtree.label().value().equals("VBD")||subtree.label().value().equals("VBG")||subtree.label().value().equals("VBN")||subtree.label().value().equals("VBP"))
 			{
 				phraseList.add(subtree);
